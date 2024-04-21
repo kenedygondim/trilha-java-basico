@@ -1,9 +1,9 @@
 package com.dio.desafio;
 
 public class ContaTerminal {
-    private int numero;
-    private String agencia;
-    private String nomeCliente;
+    private final int numero;
+    private final String agencia;
+    private final String nomeCliente;
     private double saldo;
 
     public  ContaTerminal(int numero, String agencia, String nomeCliente, double saldo) {
